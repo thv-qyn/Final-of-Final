@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Images/ic_logo.jpg</normaloff>../Images/ic_logo.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../Images/465076_statistic_analytics_charts_diagram_graph_icon.png</normaloff>../Images/465076_statistic_analytics_charts_diagram_graph_icon.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Statistics:</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0" rowspan="2">
+           <widget class="QGroupBox" name="groupBox">
+            <property name="minimumSize">
+             <size>
+              <width>400</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>400</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>400</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Functions:</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayoutFunctions">
+               <property name="sizeConstraint">
+                <enum>QLayout::SetMinimumSize</enum>
+               </property>
+               <item>
+                <widget class="QPushButton" name="pushButtonG">
+                 <property name="text">
+                  <string>Is_Fraud by Gender</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../Images/ic_statistic_gender.png</normaloff>../Images/ic_statistic_gender.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButtonDoW">
+                 <property name="text">
+                  <string>Number of Transaction by Day of Week</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../Images/ic_statistic_category.png</normaloff>../Images/ic_statistic_category.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButtonC">
+                 <property name="text">
+                  <string>Is_Fraud by Category</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../Images/ic_statistic_cate_value.png</normaloff>../Images/ic_statistic_cate_value.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButtonSaG">
+                 <property name="text">
+                  <string>Is_Fraud by State and Gender</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../Images/ic_statistic_cate_gender.png</normaloff>../Images/ic_statistic_cate_gender.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButtonCaG">
+                 <property name="text">
+                  <string>Is_Fraud by Category and Gender</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>../Images/ic_statistic_sales_yearly_monthly.png</normaloff>../Images/ic_statistic_sales_yearly_monthly.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label">
+                 <property name="text">
+                  <string>List of Data</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                 <item>
+                  <widget class="QTableWidget" name="tableWidgetD"/>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <layout class="QVBoxLayout" name="verticalLayoutPlot">
+            <item>
+             <widget class="QGroupBox" name="groupBox_4">
+              <property name="title">
+               <string>Chart Visualization:</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_3"/>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../Images/11406523_learning_machine_technology_deep_developer_icon.png</normaloff>../Images/11406523_learning_machine_technology_deep_developer_icon.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Machine Learning</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>330</y>
+          <width>301</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Evaluation</string>
+        </property>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>True Positive:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>50</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>False Positive:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>True Negative:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>110</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>False Negative:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditTP">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>20</y>
+           <width>141</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditFP">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>50</y>
+           <width>141</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditTN">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>80</y>
+           <width>141</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditFN">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>110</y>
+           <width>141</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>140</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Accuracy:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditAcc">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>140</y>
+           <width>141</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>170</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Recall:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditR">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>170</y>
+           <width>141</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>200</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>F1_Score:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditFS">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>200</y>
+           <width>141</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>230</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Precision:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditP">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>230</y>
+           <width>141</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>280</y>
+          <width>601</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Train Model:</string>
+        </property>
+        <widget class="QLineEdit" name="lineEditRandomState">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>50</y>
+           <width>171</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>50</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Random State:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>61</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Test Size:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditTestSize">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>20</y>
+           <width>171</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>20</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonTrainModel">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>30</y>
+           <width>121</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Train Model</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../Images/969264_courses_flipchart_training_blackboard_education_icon.png</normaloff>../Images/969264_courses_flipchart_training_blackboard_education_icon.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonEvaluate">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>30</y>
+           <width>111</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Evaluate</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../Images/11406335_implementation_concept_idea_innovation_tools_icon.png</normaloff>../Images/11406335_implementation_concept_idea_innovation_tools_icon.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>360</y>
+          <width>601</width>
+          <height>231</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Prediction:</string>
+        </property>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Category:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditATM">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>50</y>
+           <width>171</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>50</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>ATM:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Gender:</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonPredict">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>30</y>
+           <width>131</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Predict</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../Images/11406710_predict_analytics_diagram_statistics_report_icon.png</normaloff>../Images/11406710_predict_analytics_diagram_statistics_report_icon.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>110</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>State:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>140</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Zip:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditZ">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>140</y>
+           <width>171</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>170</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Job Title:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>200</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Age:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditA">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>200</y>
+           <width>171</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditPredictedPrice">
+         <property name="geometry">
+          <rect>
+           <x>360</x>
+           <y>140</y>
+           <width>181</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>110</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Predicted Fraud:</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditC">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>20</y>
+           <width>171</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditG">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>80</y>
+           <width>171</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditS">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>110</y>
+           <width>171</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEditJT">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>170</y>
+           <width>171</width>
+           <height>22</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QTableWidget" name="tableWidgetData">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>931</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>trans_date_trans_time</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>cc_num</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>merchant</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>category</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>amt</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>first</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>last </string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>gender</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>street</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>city</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>state</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>zip</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>lat</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>long</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>city_pop</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>job</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>dob</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>trans_num</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>unix_time</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>merch_lat</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>is_fraud</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>55</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Data</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonVD">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>280</y>
+          <width>141</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>View Data</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>960</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSystem">
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>System</string>
+    </property>
+    <property name="separatorsCollapsible">
+     <bool>true</bool>
+    </property>
+    <property name="toolTipsVisible">
+     <bool>true</bool>
+    </property>
+    <addaction name="actionConnection"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionInstructions"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuSystem"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionConnection">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Images/2924889_business_connection_management_marketing_seo_icon.png</normaloff>../Images/2924889_business_connection_management_marketing_seo_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Connect Database</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionSave_trained_Machine_Learning_Model">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Images/118916_guardar_save_document_icon.png</normaloff>../Images/118916_guardar_save_document_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save trained ML Model</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionLoad_trained_Machine_Learning_Model">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Images/9991099_update_data_load_system_upload_icon.png</normaloff>../Images/9991099_update_data_load_system_upload_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Load trained ML Model</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Images/3403739_log out_off_out_power_shutdown_icon.png</normaloff>../Images/3403739_log out_off_out_power_shutdown_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </action>
+  <action name="actionInstructions">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Images/4379919_data_details_guidance_info_information_icon.png</normaloff>../Images/4379919_data_details_guidance_info_information_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Instructions</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Images/4470663_description_about_app_web_info_icon.png</normaloff>../Images/4470663_description_about_app_web_info_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>pushButtonG</tabstop>
+  <tabstop>pushButtonDoW</tabstop>
+  <tabstop>pushButtonC</tabstop>
+  <tabstop>pushButtonSaG</tabstop>
+  <tabstop>pushButtonCaG</tabstop>
+  <tabstop>lineEditTestSize</tabstop>
+  <tabstop>lineEditRandomState</tabstop>
+  <tabstop>pushButtonTrainModel</tabstop>
+  <tabstop>lineEditTP</tabstop>
+  <tabstop>lineEditFP</tabstop>
+  <tabstop>lineEditTN</tabstop>
+  <tabstop>lineEditFN</tabstop>
+  <tabstop>pushButtonEvaluate</tabstop>
+  <tabstop>lineEditATM</tabstop>
+  <tabstop>pushButtonPredict</tabstop>
+  <tabstop>lineEditPredictedPrice</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionExit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
